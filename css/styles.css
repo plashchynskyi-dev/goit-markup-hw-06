@@ -1272,6 +1272,7 @@ display: flex;
     .footer-logo-text-container {
         text-align: start;
         align-items: flex-start;
+        margin-right: 120px;
     }
 
     .footer-social-container {
