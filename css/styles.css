@@ -1019,9 +1019,9 @@ h2 {
 /* endportfolio */
 /* footer */
 .footer {
+    max-width: 552px;
     background: #2e2f42;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px 16px;
 }
 
 .footer-logo {
@@ -1192,6 +1192,8 @@ h2 {
 @media screen and (min-width: 768px) {
     .footer {
         height: 456px;
+        max-width: 768px;
+        padding: 0 108px;
     }
 
     .footer .container {
@@ -1199,6 +1201,8 @@ h2 {
         flex-wrap: wrap;
         align-items: flex-start;
         position: relative;
+        max-width: 552px;
+        padding: 0 108px;
     }
 }
 
@@ -1240,6 +1244,10 @@ h2 {
 
 @media screen and (min-width: 1158px) {
 
+    .footer {
+        max-width: 100%;
+    }
+
     .footer .container {
         display: flex;
         gap: 120px;
@@ -1261,6 +1269,11 @@ h2 {
         right: 0;
         padding-top: 0;
     }
+    .input-row {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
 
 }
 
