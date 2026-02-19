@@ -470,8 +470,7 @@ header {
         gap: 12px;
         list-style: none;
         margin: 0 auto;
-        padding-right: 16px;
-        padding-top: 16px;
+        padding: 0;
     }
 
 }
@@ -823,9 +822,8 @@ display: flex;
     justify-content: center;
     row-gap: 72px;
     flex-wrap: wrap;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: none;
+    margin: 0;
 }
 
 .social-links {
@@ -898,8 +896,12 @@ display: flex;
 /* endteam */
 /* portfolio */
 .portfolio-main-title {
-    text-align: center;
-    margin-bottom: 72px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            margin-bottom: 72px;
 }
 
 .portfolio-title {
@@ -1255,12 +1257,12 @@ display: flex;
 @media screen and (min-width: 1158px) {
     .footer .container {
     display: flex;
-        gap: 120px;
         align-items: baseline;
         max-width: 1140px;
         position: relative;
-         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 0;
         padding-left: 15px;
         padding-right: 15px;
         flex-wrap: nowrap;
@@ -1322,7 +1324,7 @@ display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
     transform: translate(-50%, -50%);
     background-color: #fcfcfc;
     border-radius: 4px;
@@ -1541,5 +1543,6 @@ display: flex;
     .popup-review {
         width: 408px;
         height: 584px;
+        padding: 72px 24px 24px 24px;
     }
 }
